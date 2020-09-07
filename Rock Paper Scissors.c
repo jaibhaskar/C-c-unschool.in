@@ -41,7 +41,7 @@ label:    printf("\n\n Choose Number :1.Rock\t2.paper\t3.scissors");
   if(score_player==score_system)
     printf("\n\n\t    \tMatch Tied\n\n\t    \t WELL PLAYED\n\n");
   else if(score_player>score_system)
-    printf("\n\n\t\    \tPLAYER WINS\n\n\t    \t WELL PLAYED CHAMPION\n\n");
+    printf("\n\n\t    \tPLAYER WINS\n\n\t    \t WELL PLAYED CHAMPION\n\n");
   else
     printf("\n\n\t    \tSYSTEM WINS\n\n\t    \t WELL TRIED\n\n");
   for(int j=0;j<41;j++)
